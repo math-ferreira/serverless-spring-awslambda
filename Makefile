@@ -12,3 +12,6 @@ deploy:
 	@echo "(2) deploy"
 		.\sh\2-deploy.sh mvn
 
+clean:
+	@echo "clean"
+		.\sh\3-cleanup.sh
