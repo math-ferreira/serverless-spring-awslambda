@@ -10,6 +10,9 @@ mvnw.cmd
 .aws-sam/
 samconfig.toml
 
+out.yml
+sh/bucket-name.txt
+
 ### STS ###
 .apt_generated
 .classpath

@@ -1,6 +1,6 @@
 #!/bin/bash
 set -eo pipefail
-ARTIFACT_BUCKET=$(cat bucket-name.txt)
+ARTIFACT_BUCKET=$(cat sh/bucket-name.txt)
 TEMPLATE=template.yml
 ARTIFACT_ID=$(printf 'VER\t${project.artifactId}' | mvn help:evaluate | grep '^VER' | cut -f2)
 if [ $1 ]

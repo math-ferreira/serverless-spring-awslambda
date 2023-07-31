@@ -10,5 +10,5 @@ setup:
 
 deploy:
 	@echo "(2) deploy"
-		.\sh\2-deploy.sh
+		.\sh\2-deploy.sh mvn
 
